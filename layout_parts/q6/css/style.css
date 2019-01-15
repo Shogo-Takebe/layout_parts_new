@@ -3,3 +3,77 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+
+
+.q6__box_white_box{
+	font-size: 16px;
+	width: 300px;
+	padding: 10px 0;
+	margin: 0 10px;
+	background-color: #fff;
+	display: inline-block;
+	
+}
+
+.q6_text{
+	margin: 0 auto;
+	width: 90px;
+	text-align: center;
+	background-color: #E6F2FF;
+	padding: 10px 0;
+}
+.q6--around{
+	display: table;
+}
+.q6_box{
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+.q6_box_text{
+	display: inline-block;
+	padding: 10px;
+	background-color: #fff;
+}
+
+.is-stable{
+	position: relative;
+}
+.is-stable p{
+	position: absolute;
+
+}
+.is-flexible{
+	position: relative;
+}
+.is-flexible  p{
+	position: relative;
+	padding: 10px;
+}
+
+
+.q6--position .q6__box{
+	position: relative;
+}
+
+/*ここ復習*/
+.q6__box.is-stable.q6__box__inner{
+	position: absolute;
+	top: 0;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	margin: auto;
+}
+.q6__box.is-flexible.q6__box__inner{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+
+
+

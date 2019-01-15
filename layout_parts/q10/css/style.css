@@ -3,3 +3,34 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+
+
+
+.q__10_text{
+	position: relative;
+	margin: 0 auto;
+	width: 500px;
+	padding: 20px; 
+	border: solid 5px #222;
+	font-size: 16px;
+	line-height: 16px;
+	border-radius: 30px;
+}
+.q__10_text::before{
+	position: absolute;
+	content: "";
+	border: solid 20px transparent;
+	border-top: solid 20px #222;
+	left: 35px;
+	bottom: -45px;
+}
+.q__10_text::after{
+	position: absolute;
+	content: "";
+	border: solid 20px transparent;
+	border-top: solid 20px #fff;
+	left: 35px;
+	bottom: -38px;
+
+
+}

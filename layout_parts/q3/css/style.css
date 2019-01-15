@@ -3,3 +3,39 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+
+table{
+	border-collapse: collapse;
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	font-size: 18px;
+	line-height: 26px
+}
+table td{
+	border: solid #dedede 1px;
+	font-size: 16px;
+	line-height: 22px;	
+}
+
+table th{
+	background-color: #2244aa;
+	color: #fff;
+	border: solid 1px #fff;
+
+}
+
+table th, table td{
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.border{
+	border-top: dashed #000 2px;
+
+}
+
+.color:not(th){
+	background-color: #ecf1f2;
+}
