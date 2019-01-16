@@ -15,27 +15,28 @@
 	width: 940px;
 	padding: 20px;
 	margin: 0 auto;
-
+	box-sizing: border-box;
 }
-
 .bluebox{
 	background-color: #3274ae;
 	margin-left: 20px;
 	float: left;
 	padding: 20px;
-
+}	
+.bluebox:first-child{
+	margin-left: 0;
 }
 
 .whitebox{
 	width: 230px;
 	background-color: #eaf4ff;
 	padding: 20px; 
-	border: solid 8px #022336;
+	border: solid 10px #022336;
 	box-sizing: border-box;
 
 }
 
-p{
+.boxtext{
 	font-size: 16px;
 	line-height: 16px;
 }

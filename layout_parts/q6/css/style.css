@@ -5,20 +5,28 @@
 /* 回答はここに書いてね */
 
 
-.q6__box_white_box{
+.q6__horizontal .q6__box{
+	display: inline-block;
 	font-size: 16px;
 	width: 300px;
 	padding: 10px 0;
 	margin: 0 10px;
 	background-color: #fff;
-	display: inline-block;
-	
 }
 
-.q6_text{
-	margin: 0 auto;
-	width: 90px;
+.q6__box.is-textalign .q6__box_inner{
 	text-align: center;
+}
+.q6__box.is-textalign .q6_text{
+	display: inline-block;
+}
+
+.q6__box.is-margin .q6_text{
+	margin: 0 auto;
+	text-align: center;
+}
+.q6_text{
+	width: 90px;
 	background-color: #E6F2FF;
 	padding: 10px 0;
 }
@@ -49,17 +57,11 @@
 .is-stable{
 	position: relative;
 }
-.is-stable p{
-	position: absolute;
 
-}
 .is-flexible{
 	position: relative;
 }
-.is-flexible  p{
-	position: relative;
-	padding: 10px;
-}
+
 
 
 .q6--position.q6__box{

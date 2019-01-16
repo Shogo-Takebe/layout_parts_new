@@ -8,17 +8,22 @@
 .q4{
 	box-sizing: border-box;
 	padding: 20px;
-	background-color: #ECF1F2;
+	
 }
-.content{
+.q4__content{
 	display: table;
 	width: 100%;
-	
+	margin-top: 20px;
+	background-color: #ECF1F2;
+}
+.q4__content:first-child{
+	margin-top: 0;
 }
 .contenttable{
 	display: table-cell;
 	padding: 20px;	
 	text-align: center;
+	
 }
 
 .content_pink{

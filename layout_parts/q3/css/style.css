@@ -4,38 +4,34 @@
 
 /* 回答はここに書いてね */
 
-table{
+.q3__content{
 	border-collapse: collapse;
 	text-align: center;
 	margin: 0 auto;
 	width: 100%;
-	font-size: 18px;
-	line-height: 26px
+	table-layout: fixed;
 }
-table td{
-	border: solid #dedede 1px;
-	font-size: 16px;
-	line-height: 22px;	
-}
-
-table th{
-	background-color: #2244aa;
-	color: #fff;
-	border: solid 1px #fff;
-
-}
-
-table th, table td{
+.q3__content th,.q3__content td{
 	padding-top: 10px;
 	padding-bottom: 10px;
-
+	vertical-align: middle;
+	border: 1px solid #dedede;
 }
 
-.border{
-	border-top: dashed #000 2px;
-
+ .q3__content th{
+	background-color: #2244aa;
+	color: #fff;
+	font-size: 18px;
+	line-height: 26px;
 }
-
-.color:not(th){
+.q3__content td{
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;	
+}
+.q3__content > tbody > tr:nth-child(even){
 	background-color: #ecf1f2;
+}
+.q3__content > tbody > tr:last-child{
+	border-top: dashed #000 2px;
 }

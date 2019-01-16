@@ -91,12 +91,10 @@
 	display: block;
 	content:"";
 	clear: both;
-
 }
 .q8__main{
 	float: left;
 	width: 300px;
-
 }
 .q8__main_items > li {
 	margin-bottom: 20px;
@@ -177,13 +175,12 @@
 	border-radius: 50%;
 	content: "";
 }
-
 .q8__main_items > li{
 	margin-top: 20px;
 }
 
 /*ここから*/
-.q8_select{
+.q8__select{
 	position: relative;
 }
 .q8__select:after{
@@ -197,7 +194,6 @@
 	transform: rotate(45deg);
 	content: "";
 	pointer-events: none;
-
 }
 
 .q8__seltct_body{
@@ -210,6 +206,7 @@
 	box-sizing: border-box;
 	cursor: pointer;
 }
+
 .q8__checkbox{
 	text-align: right;
 }
@@ -259,7 +256,6 @@
 	font-size: 16px;
 	line-height: 26px;
 }
-
 
 .q8__placeholder{
 	float: right;
